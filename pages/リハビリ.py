@@ -78,7 +78,6 @@ with st.container():
 st.write("This is outside the container")
 
 import time
-import streamlit as st
 
 with st.spinner('Wait for it...'):
     time.sleep(5)
